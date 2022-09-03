@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #eee;
+    width: 60%;
+    padding: 2%;
+    margin: auto;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #444;
+    letter-spacing: 0.7px;
+}
+
+header,
+nav,
+footer,
+#quote {
+    text-align: center;
+}
+
+header {
+    font-size: 2rem;
+}
+
+nav {
+    margin: 2rem 0 2rem;
+    padding-bottom: 2rem;
+}
+
+.link:link,
+.link:visited {
+    border: 2px solid #393984;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+}
+
+.link:active,
+.link:hover {
+    background-color: #393984;
+    color: #fff;
+}
+
+nav .link:first-child {
+    margin-right: 2rem;
+}
+
+summary,
+section,
+aside,
+nav {
+    padding: 2rem;
+    border-bottom: 1px dashed #8b8ba5;
+}
+
+summary,
+#quote {
+    margin: 2rem 0;
+}
+
+.left {
+    color: #2b91b7;
+}
+
+.right {
+    color: #737313;
+}
+
+#actor p {
+    margin-top: 1rem;
+}
+
+#quote {
+    font-style: italic;
+}
+
+aside,
+#nav-actor div {
+    display: flex;
+}
+
+aside {
+    margin-bottom: 2rem;
+}
+
+aside p:first-child,
+#nav-actor div h3:first-child {
+    margin-right: auto;
+}
